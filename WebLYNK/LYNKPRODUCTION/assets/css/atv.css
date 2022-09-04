@@ -1,0 +1,135 @@
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400|Raleway:200,300,400,500,700,900);
+
+body {
+	margin: 0px;
+	font-family: "Raleway", Sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: 200;
+	letter-spacing: 0.4px;
+	font-family: "Raleway", Sans-serif;
+	color: #232323;
+}
+p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 17px;
+	font-weight: 300;
+	line-height: 28px;
+	letter-spacing: 0.2px;
+	color: #252525;
+}
+a:hover, a:focus, a:active, a.active {
+    color: #fec503;
+}
+a, a:hover, a:focus, a:active, a.active {
+    outline: 0;
+}
+
+::selection {
+    text-shadow: none;
+    background: #fed136;
+}
+
+@media (min-width: 768px) {
+	section {
+	    padding: 150px 0;
+	}
+}
+
+section {
+	padding: 35px 0 60px;
+}
+
+@media (min-width:768px) {
+	.navbar-default
+	{
+		background-color: transparent;
+		padding: 40px 0 0px;
+    	-webkit-transition:padding .3s;
+		-moz-transition:padding .3s;
+		transition:padding .3s;
+		border:0
+	}
+	.navbar-default .navbar-brand {
+		font-size: 2em;
+		-webkit-transition:all .3s;
+		-moz-transition:all .3s;
+		transition:all .3s;
+        padding: 0px;
+	}
+	.navbar-default .navbar-nav>.active>a {
+		border-radius: 3px
+	}
+	.navbar-default.navbar-shrink {
+		background-color: #222;
+		padding: 10px 0
+	}
+    .navbar-nav>li>a {
+        padding-top: 15px;
+        padding-bottom: 4px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+
+svg {
+	
+    display: block;
+    font: 10.5em 'Montserrat';
+    width: 960px;
+    height: 600px;
+    margin: 0 auto;
+	font-family: Arial;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: #FF4848;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #FFD371;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #C2FFD9;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #9DDAC6;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #FF67E7;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
+
+
